@@ -1,0 +1,29 @@
+1.#include<stdio.h>
+2.main()
+3.{ int choice =1;
+4.  //1. Display the menu
+5. printf("pick an item:\n1.mobile \n2.laptop \n3.television \n4.tab");
+6.  //2. Read their choice 
+7. int choice =0;
+8. scanf("%d",&choice);
+9.  //3. Display based on their choice 
+10.
+11. Switch (choice)
+12.
+13. Case1:
+14. printf ("you picked mobile");
+15. break;
+16. Case2:
+17. printf ("you picked laptop");
+18. break;
+19. Case3:
+20. printf ("you picked television");
+21. break;
+22. Case4:
+23. printf ("you picked tab");
+24. break;
+25. Default:
+26. printf("invalid choice");
+27. }
+28. return 0;
+29. }
